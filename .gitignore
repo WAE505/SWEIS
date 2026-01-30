@@ -1,0 +1,9 @@
+# PDF source documents (too large for git, ~53.5 MB total)
+*.pdf
+
+# Generated output
+sweis_ref_report.txt
+
+# Python
+__pycache__/
+*.pyc
