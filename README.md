@@ -113,6 +113,7 @@ The report (`sweis_ref_report.txt`) contains four sections:
 
 ## Known Limitations
 
+- **Linked Content Relevance**: This tool looks for orphaned references only, it can't check to see if a linked reference is contextually accurate or relevant.
 - **PDF text extraction quality**: PyMuPDF extracts text well but may miss headings embedded in images, non-standard fonts, or formatted as vector graphics rather than text.
 - **Line-break sensitivity**: Section headings split across lines (e.g., "Section\n3.4.1.3") are handled by the reference extractor but may not be captured as targets if the heading itself spans lines.
 - **Table of Contents**: TOC entries are extracted as targets alongside the actual headings, which improves matching but could occasionally create false matches for a heading that appears only in the TOC but not in the body (unlikely in practice).
